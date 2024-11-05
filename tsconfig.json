@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowUnusedLabels": false,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "binarySearchTree/*": ["src/binarySearchTree/*"],
+      "doublyLinkedList/*": ["src/doublyLinkedList/*"],
+      "linkedList/*": ["src/linkedListFast/*"],
+      "queue/*": ["src/queue/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
